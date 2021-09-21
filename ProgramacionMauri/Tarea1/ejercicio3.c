@@ -14,11 +14,12 @@ int main()
 	 * de esa forma genera numeros aleatorios en cada ejecucion
 	 */
 	srand(time(NULL));
-	int arrayPrimos[25] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97};
 	int array[MAX],i,number,sortedArray[MAX],j,aux;
+	//Array con los numeros primos del 1 al 100
+	int arrayPrimos[25] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97};
 
-	/*Inicializando los arreglos con indices aleatorios, 
-	* que se obtienen de otro arreglo que contiene los numeros primos
+	/*Inicializando los arreglos con indices aleatorios para obtener los numeros, 
+	* se obtienen de otro arreglo que contiene los numeros primos
 	* y mostramos por pantalla el numero
 	*/
 	printf("Original:  ");
