@@ -1,5 +1,5 @@
 /*Que rellene de forma aleatoria un array de 10 elementos, 
-* con los números primos comprendidos entre 1 y 100 
+* con los números pares comprendidos entre 1 y 100 
 * y los muestre en pantalla en orden ascendente.
 */
 
@@ -28,7 +28,7 @@ int main()
 
 	printf("Original: ");
 	/*Inicializando los arreglos con indices aleatorios para obtener los numeros, 
-	* se obtienen de otro arreglo que contiene los numeros primos
+	* se obtienen de otro arreglo que contiene los numeros pares
 	* y mostramos por pantalla el numero
 	*/
 	for (i = 0; i < MAX; ++i)
