@@ -1,0 +1,175 @@
+body {
+	background-color: #0d000d;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23120012' stroke-width='20'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23000000'%3E%3Ccircle cx='769' cy='229' r='6'/%3E%3Ccircle cx='539' cy='269' r='6'/%3E%3Ccircle cx='603' cy='493' r='6'/%3E%3Ccircle cx='731' cy='737' r='6'/%3E%3Ccircle cx='520' cy='660' r='6'/%3E%3Ccircle cx='309' cy='538' r='6'/%3E%3Ccircle cx='295' cy='764' r='6'/%3E%3Ccircle cx='40' cy='599' r='6'/%3E%3Ccircle cx='102' cy='382' r='6'/%3E%3Ccircle cx='127' cy='80' r='6'/%3E%3Ccircle cx='370' cy='105' r='6'/%3E%3Ccircle cx='578' cy='42' r='6'/%3E%3Ccircle cx='237' cy='261' r='6'/%3E%3Ccircle cx='390' cy='382' r='6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 95%;
+	margin: auto;
+}
+/* Navigation */
+.nav-main {
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 20px 0;
+}
+
+.nav-brand {
+  width: 100px;
+}
+
+.nav-main ul{
+	display: flex;
+}
+
+.nav-main ul li {
+	padding: 10px;
+}
+
+.nav-main ul li a{
+	padding: 2px;
+}
+
+.nav-main ul li a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+hr {
+	margin: 10px 0;
+}
+
+/* Showcase */
+.showcase {
+  background: url("../img/bannerprincipal.jpg") no-repeat center center/cover ;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  color: #F2E7E7;
+}
+
+.showcase:before {
+	content: "";
+	width: 100%;
+	height: 700px;
+	background-color: black;
+	position: absolute;
+	opacity: 0.75; 
+}
+
+.showcase h2,
+.showcase p {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+/* Card1 */
+
+.card1 {
+	background-color: #fff;
+	color: #000;
+	display: grid;
+	width: 100%;
+	gap: 25px;
+	margin: auto;
+}
+
+.card1 img{
+	float: left;
+	margin-top: 40px;
+	margin-left: 70px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	width: 230px;
+	height: 300px;
+}
+
+.card1 h3 {
+	font-size: 20px;
+	margin-top: 120px;
+	text-align: center;
+}
+
+.card1 p {
+	font-size: 16px;
+	margin: 30px 20px;
+	text-align: center;
+
+}
+
+/* Card2 */
+
+.card2 {
+	background-color: #000;
+	color: #fff;
+	display: grid;
+	width: 100%;
+	gap: 25px;
+	margin: auto;
+}
+
+.card2 img{
+	float: right;
+	margin-top: 40px;
+	margin-right: 70px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	width: 230px;
+	height: 300px;
+}
+
+.card2 h3 {
+	font-size: 20px;
+	margin-top: 120px;
+	text-align: center;
+}
+
+.card2 p {
+	font-size: 16px;
+	margin: 30px 20px;
+	text-align: center;
+
+}
+
+/* Follow */
+.social {
+  margin: 50px;
+}
+.social p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a i {
+  font-size: 3rem;
+}
