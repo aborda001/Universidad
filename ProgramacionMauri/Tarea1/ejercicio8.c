@@ -20,7 +20,7 @@ int main()
 	printf("Primer array:");
 	for (i = 0; i < MAX/2; i++)
 	{
-		//Agrega numeros de forma aleatoria a 'arrayOne' y hace una copia del arreglo en 'sortedArray'
+		//Agrega numeros de forma aleatoria a 'arrayOne'
 		arrayOne[i] = rand();
 		printf("%d, ",arrayOne[i] );
 
@@ -30,7 +30,7 @@ int main()
 	printf("\nSegundo array:");
 	for (i = 0; i < MAX/2; i++)
 	{
-		//Agrega numeros de forma aleatoria a 'arrayTwo' y hace una copia del arreglo en 'sortedArray'
+		//Agrega numeros de forma aleatoria a 'arrayTwo'
 		arrayTwo[i] = rand();
 		printf("%d, ",arrayTwo[i] );
 		
