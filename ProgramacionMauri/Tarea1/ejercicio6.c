@@ -13,7 +13,7 @@ int main()
 	for (i = 0; i < MAX; ++i)
 	{
 		printf("Ingrese un numero:	\n");
-		scanf(" %d", array[i]);
+		scanf(" %d", &array[i]);
 		sum += array[i];
 		multiply *= array[i];
 	}
