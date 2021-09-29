@@ -18,7 +18,7 @@ int main()
 	
 	for (i = 0; i < MAX; i++)
 	{
-		//Agrega numeros de forma aleatoria a 'sortedArray' y hace una copia del arreglo en 'sortedArray'
+		//Agrega numeros de forma aleatoria a 'sortedArray'
 		sortedArray[i] = rand();
 	}
 
