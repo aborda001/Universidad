@@ -13,13 +13,13 @@ int main()
 	 * de esa forma genera numeros aleatorios en cada ejecucion
 	 */
 	srand(time(NULL));
-	int array[MAX], searching;
+	long int array[MAX], searching;
 	int i;
 
 	printf("Numeros: ");
 	for (i = 0; i < MAX; ++i)
 	{
-		array[i] = rand() % 100;
+		array[i] = rand();
 		printf("%d, ", array[i]);
 	}
 
