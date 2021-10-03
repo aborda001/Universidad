@@ -9,7 +9,6 @@
 int main()
 {
 	int array[MAX], i, sum;
-
 	float  average;
 
 	for (i = 0; i < MAX; ++i)
