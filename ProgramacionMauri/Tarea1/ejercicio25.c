@@ -20,7 +20,7 @@ int main()
 
 	for (i = 0; i < lenght; ++i)
 	{
-		if (isVowel(string[i]))
+		if (isVowel(string[i])) //Comara si es vocal o no
 		{
 			vowels++;
 		}
@@ -33,11 +33,11 @@ int main()
 int isVowel(char letter)
 {
 	char vowels[5] = "aeiou";
-	letter = tolower(letter);
+	letter = tolower(letter); //Convierte la letra ingresada en minuscula
 	int i; 
 	for (i = 0; i < 5; ++i)
 	{
-		if (letter == vowels[i])
+		if (letter == vowels[i]) //Compara si la letra se encuentra dentro de la lista de vocales
 		{
 			return 1;
 		}
