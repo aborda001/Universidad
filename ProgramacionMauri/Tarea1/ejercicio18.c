@@ -43,4 +43,5 @@ int main()
 			printf("EL numero '%d' se encuentra en la lista\n", numberTwo);
 		}
 	}
+	return 0;
 }
