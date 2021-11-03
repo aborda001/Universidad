@@ -31,7 +31,7 @@ int main()
 	int option;
 
 	printf("Ingrese una frase: \n");
-	scanf("%s", &string);
+	gets(string);
 
 	printf("Escoga una de las opciones: (1-7) \n");
 	printf("1)Frase original\n");
